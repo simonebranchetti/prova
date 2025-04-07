@@ -1,0 +1,52 @@
+nav{
+
+    height: 10vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /*spazio tra un elemento e l'altro*/
+    gap: 2vw;
+    background-color: gray;
+    /*spazio dell'elemento dal bordo del contenitore*/
+    padding: 2vh;
+}
+
+nav a:link{
+
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+
+}
+
+nav a.button{
+
+    background-color: red;
+    padding : 1vh;
+
+}
+
+/*quando si passa con il mouse*/
+nav a:hover{
+
+    color: black;
+
+}
+
+main {
+
+
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 2vh;
+    background-image: url("immagine.jpg")   ;
+    flex-direction: column;
+}
+
+main h1{
+
+    color: white;
+    
+}
